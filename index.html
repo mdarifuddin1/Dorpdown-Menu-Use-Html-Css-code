@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dorpdown menu</title>
+    <style>
+      .navbar{
+          background-color: teal;
+          padding: 2% 10%;
+          text-align: right;
+      }
+      .navbar a{
+          text-decoration: none;
+          color: white;
+          font-size: 1.2rem;
+          padding: 10px 20px;
+          cursor: pointer;
+
+      }
+      .dorpdown-contanier{
+          display: inline;
+          position: relative;
+      }
+      .dorpdown-contant{
+       position: absolute;
+       top: 30px;
+       right: 0px;
+       background-color: teal;
+       text-align: left;
+       min-width: 100px;
+       display: none;
+      }
+      .dorpdown-contant a{
+         display: block;
+      }
+      .dorpdown-contant a:hover{
+          background-color: tomato;
+      }
+      .dorpdown-contanier:hover .dorpdown-contant{
+        display: block;
+      }
+        
+    </style>
+</head>
+<body>
+         <div class="navbar">
+            <div class="dorpdown-contanier">
+                <a href="#">HoME</a>
+                <div class="dorpdown-contant">
+                    <a href="#">INstagram</a>
+                    <a href="#">About</a>
+                    <a href="#">Poone</a>
+                </div>
+            </div>
+            <div class="dorpdown-contanier">
+                <a href="#">Titural</a>
+                <div class="dorpdown-contant">
+                    <a href="#">MyVideo</a>
+                    <a href="#">MyAudio</a>
+                    <a href="#">MYyoutube </a>
+                </div>
+            </div>
+            <div class="dorpdown-contanier">
+                <a href="#">Canact Me</a>
+                <div class="dorpdown-contant">
+                    <a href="#">Facebook</a>
+                    <a href="#">Email</a>
+                    <a href="#">Twiter</a>
+                </div>
+            </div>
+            <a href="#">About Me</a>
+            
+         </div>
+</body>
+</html>
